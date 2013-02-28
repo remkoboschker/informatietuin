@@ -1,0 +1,274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'sass' ]
+2 info using npm@1.2.10
+3 info using node@v0.8.19
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'sass', null ]
+7 verbose cache add name=undefined spec="sass" args=["sass",null]
+8 verbose parsed url { pathname: 'sass', path: 'sass', href: 'sass' }
+9 silly lockFile 5d7463cd-sass sass
+10 verbose lock sass /Users/remko/.npm/5d7463cd-sass.lock
+11 silly lockFile 5d7463cd-sass sass
+12 silly lockFile 5d7463cd-sass sass
+13 verbose addNamed [ 'sass', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile abea0ec1-sass sass@
+16 verbose lock sass@ /Users/remko/.npm/abea0ec1-sass.lock
+17 silly addNameRange { name: 'sass', range: '', hasData: false }
+18 verbose url raw sass
+19 verbose url resolving [ 'https://registry.npmjs.org/', './sass' ]
+20 verbose url resolved https://registry.npmjs.org/sass
+21 info trying registry request attempt 1 at 16:09:49
+22 http GET https://registry.npmjs.org/sass
+23 http 200 https://registry.npmjs.org/sass
+24 silly registry.get cb [ 200,
+24 silly registry.get   { vary: 'Accept',
+24 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+24 silly registry.get     etag: '"1CO6FJEJSPTCZ9EWF5DL4GICU"',
+24 silly registry.get     date: 'Fri, 15 Feb 2013 15:07:54 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '3251' } ]
+25 silly addNameRange number 2 { name: 'sass', range: '', hasData: true }
+26 silly addNameRange versions [ 'sass', [ '0.4.0', '0.4.1', '0.4.2', '0.4.3', '0.5.0' ] ]
+27 verbose addNamed [ 'sass', '0.5.0' ]
+28 verbose addNamed [ '0.5.0', '0.5.0' ]
+29 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+30 verbose lock sass@0.5.0 /Users/remko/.npm/69745589-sass-0-5-0.lock
+31 silly lockFile f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+32 verbose lock https://registry.npmjs.org/sass/-/sass-0.5.0.tgz /Users/remko/.npm/f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass/-/sass-0.5.0.tgz',
+33 verbose addRemoteTarball   undefined ]
+34 info retry fetch attempt 1 at 16:09:53
+35 verbose fetch to= /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/tmp.tgz
+36 http GET https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+37 http 200 https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+38 verbose tar unpack /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/tmp.tgz
+39 silly lockFile 5112a2bd-3732-0-15735326567664742-package /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+40 verbose lock /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package /Users/remko/.npm/5112a2bd-3732-0-15735326567664742-package.lock
+41 silly lockFile 2fe4225d-3732-0-15735326567664742-tmp-tgz /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/tmp.tgz
+42 verbose lock /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/tmp.tgz /Users/remko/.npm/2fe4225d-3732-0-15735326567664742-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry
+45 silly gunzTarPerm extractEntry .gitignore
+46 silly gunzTarPerm extractEntry ._History.md
+47 silly gunzTarPerm extractEntry History.md
+48 silly gunzTarPerm extractEntry index.js
+49 silly gunzTarPerm extractEntry lib/
+50 silly gunzTarPerm extractEntry Makefile
+51 silly gunzTarPerm extractEntry ._package.json
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry ._Readme.md
+54 warn excluding symbolic link index.js -> lib/sass.js
+55 silly gunzTarPerm extractEntry Readme.md
+56 silly gunzTarPerm extractEntry spec/
+57 silly gunzTarPerm extractEntry spec/fixtures/
+58 silly gunzTarPerm extractEntry spec/lib/
+59 silly gunzTarPerm extractEntry spec/node.js
+60 silly gunzTarPerm extractEntry spec/spec.core.js
+61 silly gunzTarPerm extractEntry spec/lib/images/
+62 silly gunzTarPerm extractEntry spec/lib/jspec.css
+63 silly gunzTarPerm extractEntry spec/lib/jspec.growl.js
+64 silly gunzTarPerm extractEntry spec/lib/jspec.jquery.js
+65 silly gunzTarPerm extractEntry spec/lib/jspec.js
+66 silly gunzTarPerm extractEntry spec/lib/jspec.nodejs.js
+67 silly gunzTarPerm extractEntry spec/lib/jspec.shell.js
+68 silly gunzTarPerm extractEntry spec/lib/jspec.timers.js
+69 silly gunzTarPerm extractEntry spec/lib/jspec.xhr.js
+70 silly gunzTarPerm extractEntry spec/lib/images/bg.png
+71 silly gunzTarPerm extractEntry spec/lib/images/hr.png
+72 silly gunzTarPerm extractEntry spec/lib/images/loading.gif
+73 silly gunzTarPerm extractEntry spec/lib/images/sprites.bg.png
+74 silly gunzTarPerm extractEntry spec/lib/images/sprites.png
+75 silly gunzTarPerm extractEntry spec/lib/images/vr.png
+76 silly gunzTarPerm extractEntry spec/fixtures/collect.sass
+77 silly gunzTarPerm extractEntry spec/fixtures/._comment.css
+78 silly gunzTarPerm extractEntry spec/fixtures/comment.css
+79 silly gunzTarPerm extractEntry spec/fixtures/._comment.sass
+80 silly gunzTarPerm extractEntry spec/fixtures/comment.sass
+81 silly gunzTarPerm extractEntry spec/fixtures/continuation.css
+82 silly gunzTarPerm extractEntry spec/fixtures/continuation.sass
+83 silly gunzTarPerm extractEntry spec/fixtures/literal.css
+84 silly gunzTarPerm extractEntry spec/fixtures/._literal.sass
+85 silly gunzTarPerm extractEntry spec/fixtures/literal.sass
+86 silly gunzTarPerm extractEntry spec/fixtures/mixin.css
+87 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.css
+88 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.sass
+89 silly gunzTarPerm extractEntry spec/fixtures/._mixin.sass
+90 silly gunzTarPerm extractEntry spec/fixtures/mixin.sass
+91 silly gunzTarPerm extractEntry spec/fixtures/mixin.undefined.sass
+92 silly gunzTarPerm extractEntry spec/fixtures/properties.css
+93 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.css
+94 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.sass
+95 silly gunzTarPerm extractEntry spec/fixtures/._properties.invalid.sass
+96 silly gunzTarPerm extractEntry spec/fixtures/properties.invalid.sass
+97 silly gunzTarPerm extractEntry spec/fixtures/._properties.nested.css
+98 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.css
+99 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.invalid.sass
+100 silly gunzTarPerm extractEntry spec/fixtures/._properties.nested.sass
+101 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.sass
+102 silly gunzTarPerm extractEntry spec/fixtures/properties.sass
+103 silly gunzTarPerm extractEntry spec/fixtures/selectors.css
+104 silly gunzTarPerm extractEntry spec/fixtures/selectors.sass
+105 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.css
+106 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.sass
+107 silly gunzTarPerm extractEntry spec/fixtures/variables.css
+108 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.css
+109 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.sass
+110 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.css
+111 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.sass
+112 silly gunzTarPerm extractEntry spec/fixtures/variables.sass
+113 silly gunzTarPerm extractEntry lib/index.js
+114 silly gunzTarPerm extractEntry lib/._sass.js
+115 silly gunzTarPerm extractEntry lib/sass.js
+116 warn excluding symbolic link lib/index.js -> sass.js
+117 verbose read json /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package/package.json
+118 silly lockFile 5112a2bd-3732-0-15735326567664742-package /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+119 silly lockFile 5112a2bd-3732-0-15735326567664742-package /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+120 silly lockFile 2fe4225d-3732-0-15735326567664742-tmp-tgz /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/tmp.tgz
+121 silly lockFile 2fe4225d-3732-0-15735326567664742-tmp-tgz /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/tmp.tgz
+122 verbose from cache /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package/package.json
+123 verbose tar pack [ '/Users/remko/.npm/sass/0.5.0/package.tgz',
+123 verbose tar pack   '/var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package' ]
+124 verbose tarball /Users/remko/.npm/sass/0.5.0/package.tgz
+125 verbose folder /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+126 silly lockFile 5112a2bd-3732-0-15735326567664742-package /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+127 verbose lock /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package /Users/remko/.npm/5112a2bd-3732-0-15735326567664742-package.lock
+128 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+129 verbose lock /Users/remko/.npm/sass/0.5.0/package.tgz /Users/remko/.npm/5dfe0ce5-remko-npm-sass-0-5-0-package-tgz.lock
+130 silly lockFile 5112a2bd-3732-0-15735326567664742-package /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+131 silly lockFile 5112a2bd-3732-0-15735326567664742-package /var/folders/rl/vjf6kff95qs8dv16_6_yk5l80000gn/T/npm-489/1360940993732-0.15735326567664742/package
+132 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+133 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+134 silly lockFile cf2c6846-ers-remko-npm-sass-0-5-0-package /Users/remko/.npm/sass/0.5.0/package
+135 verbose lock /Users/remko/.npm/sass/0.5.0/package /Users/remko/.npm/cf2c6846-ers-remko-npm-sass-0-5-0-package.lock
+136 silly lockFile cf2c6846-ers-remko-npm-sass-0-5-0-package /Users/remko/.npm/sass/0.5.0/package
+137 silly lockFile cf2c6846-ers-remko-npm-sass-0-5-0-package /Users/remko/.npm/sass/0.5.0/package
+138 verbose tar unpack /Users/remko/.npm/sass/0.5.0/package.tgz
+139 silly lockFile cf2c6846-ers-remko-npm-sass-0-5-0-package /Users/remko/.npm/sass/0.5.0/package
+140 verbose lock /Users/remko/.npm/sass/0.5.0/package /Users/remko/.npm/cf2c6846-ers-remko-npm-sass-0-5-0-package.lock
+141 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+142 verbose lock /Users/remko/.npm/sass/0.5.0/package.tgz /Users/remko/.npm/5dfe0ce5-remko-npm-sass-0-5-0-package-tgz.lock
+143 silly gunzTarPerm modes [ '755', '644' ]
+144 silly gunzTarPerm extractEntry package.json
+145 silly gunzTarPerm extractEntry .npmignore
+146 silly gunzTarPerm extractEntry History.md
+147 silly gunzTarPerm extractEntry lib/sass.js
+148 silly gunzTarPerm extractEntry Makefile
+149 silly gunzTarPerm extractEntry Readme.md
+150 silly gunzTarPerm extractEntry spec/node.js
+151 silly gunzTarPerm extractEntry spec/spec.core.js
+152 silly gunzTarPerm extractEntry spec/fixtures/properties.invalid.sass
+153 silly gunzTarPerm extractEntry spec/fixtures/collect.sass
+154 silly gunzTarPerm extractEntry spec/fixtures/comment.sass
+155 silly gunzTarPerm extractEntry spec/fixtures/continuation.css
+156 silly gunzTarPerm extractEntry spec/fixtures/continuation.sass
+157 silly gunzTarPerm extractEntry spec/fixtures/literal.css
+158 silly gunzTarPerm extractEntry spec/fixtures/literal.sass
+159 silly gunzTarPerm extractEntry spec/fixtures/mixin.css
+160 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.css
+161 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.sass
+162 silly gunzTarPerm extractEntry spec/fixtures/mixin.sass
+163 silly gunzTarPerm extractEntry spec/fixtures/mixin.undefined.sass
+164 silly gunzTarPerm extractEntry spec/fixtures/properties.css
+165 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.css
+166 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.sass
+167 silly gunzTarPerm extractEntry spec/fixtures/comment.css
+168 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.css
+169 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.invalid.sass
+170 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.sass
+171 silly gunzTarPerm extractEntry spec/fixtures/properties.sass
+172 silly gunzTarPerm extractEntry spec/fixtures/selectors.css
+173 silly gunzTarPerm extractEntry spec/fixtures/selectors.sass
+174 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.css
+175 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.sass
+176 silly gunzTarPerm extractEntry spec/fixtures/variables.css
+177 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.css
+178 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.sass
+179 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.css
+180 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.sass
+181 silly gunzTarPerm extractEntry spec/fixtures/variables.sass
+182 silly gunzTarPerm extractEntry spec/lib/jspec.growl.js
+183 silly gunzTarPerm extractEntry spec/lib/jspec.jquery.js
+184 silly gunzTarPerm extractEntry spec/lib/jspec.js
+185 silly gunzTarPerm extractEntry spec/lib/jspec.nodejs.js
+186 silly gunzTarPerm extractEntry spec/lib/jspec.shell.js
+187 silly gunzTarPerm extractEntry spec/lib/jspec.timers.js
+188 silly gunzTarPerm extractEntry spec/lib/jspec.xhr.js
+189 silly gunzTarPerm extractEntry spec/lib/images/bg.png
+190 silly gunzTarPerm extractEntry spec/lib/images/hr.png
+191 silly gunzTarPerm extractEntry spec/lib/images/loading.gif
+192 silly gunzTarPerm extractEntry spec/lib/images/sprites.bg.png
+193 silly gunzTarPerm extractEntry spec/lib/images/sprites.png
+194 silly gunzTarPerm extractEntry spec/lib/images/vr.png
+195 silly gunzTarPerm extractEntry spec/lib/jspec.css
+196 verbose read json /Users/remko/.npm/sass/0.5.0/package/package.json
+197 silly lockFile cf2c6846-ers-remko-npm-sass-0-5-0-package /Users/remko/.npm/sass/0.5.0/package
+198 silly lockFile cf2c6846-ers-remko-npm-sass-0-5-0-package /Users/remko/.npm/sass/0.5.0/package
+199 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+200 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+201 silly shasum updated bytes 34287
+202 info shasum b8d1312f5804485e34a78937c9d005ccf40ecbce
+202 info shasum /Users/remko/.npm/sass/0.5.0/package.tgz
+203 verbose from cache /Users/remko/.npm/sass/0.5.0/package/package.json
+204 verbose chmod /Users/remko/.npm/sass/0.5.0/package.tgz 644
+205 verbose chown /Users/remko/.npm/sass/0.5.0/package.tgz [ 501, 20 ]
+206 silly lockFile f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+207 silly lockFile f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+208 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+209 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+210 silly lockFile abea0ec1-sass sass@
+211 silly lockFile abea0ec1-sass sass@
+212 silly resolved [ { name: 'sass',
+212 silly resolved     description: 'Syntactically Awesome Stylesheets (compiles to css)',
+212 silly resolved     version: '0.5.0',
+212 silly resolved     keywords: [ 'sass', 'template', 'css', 'view' ],
+212 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+212 silly resolved     contributors: [ [Object] ],
+212 silly resolved     main: './lib/sass.js',
+212 silly resolved     readme: '\n# Sass.js\n\n  JavaScript implementation of Sass. Great for **node.js** and other\n  frameworks supporting the CommonJS module system.\n  \n## Installation\n\nnpm:\n\n      $ npm install sass\n\n## Usage\n\n    var sass = require(\'sass\')\n    sass.render(\'... string of sass ...\')\n    // => \'... string of css ...\'\n    \n    sass.collect(\'... string of sass ...\')\n    // => { selectors: [...], variables: { ... }, mixins: { ... }}\n    \n## Comments\n\n    // foo\n    body\n      // bar\n      a\n        :color #fff\n        \ncompiles to\n\n    body a {\n      color: #fff;}\n      \n## Variables\n\n    !red = #ff0000\n    body\n      :color !red\n      \nand\n    \n    red: #ff0000\n    body\n      :color !red\n     \ncompile to\n\n    body {\n      color: #ff0000;}\n\n## Selector Continuations\n\n    a\n      :color #fff\n      &:hover\n        :color #000\n      &.active\n        :background #888\n        &:hover\n          :color #fff\n          \ncompiles to\n\n    a {\n      color: #fff;}\n\n    a:hover {\n      color: #000;}\n\n    a.active {\n      background: #888;}\n\n    a.active:hover {\n      color: #fff;}\n      \n## Literal JavaScript\n\n    type: "solid"\n    size: 1\n    input\n      :border { parseInt(size) + 1 }px {type} #000\n      \ncompiles to\n\n    input {\n      border: 2px "solid" #000;}\n      \n## Property Expansion\n\n    div\n      =border-radius 5px\n      \ncompiles to\n\n    div {\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;}\n      \n## Mixins\n\n     +large\n       :font-size 15px\n     +striped\n       tr\n         :background #fff\n         +large\n         &:odd\n           :background #000\n     table\n       +striped\n       :border none\n       \ncompiles to\n\n    table {\n      border: none;}\n    table tr {\n      background: #fff;}\n    table tr {\n      font-size: 15px;}\n    table tr:odd {\n      background: #000;}\n    \n    \n## Testing\n\nUpdate Git submodules and execute:\n    $ make test\n    \n## More Information\n\n* Featured in [Advanced JavaScript e-book](http://www.dev-mag.com/2010/02/18/advanced-javascript/) for only $4\n  \n## License \n\n(The MIT License)\n\nCopyright (c) 2009 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+212 silly resolved     readmeFilename: 'Readme.md',
+212 silly resolved     _id: 'sass@0.5.0',
+212 silly resolved     dist: { shasum: 'b8d1312f5804485e34a78937c9d005ccf40ecbce' },
+212 silly resolved     _from: 'sass@',
+212 silly resolved     _resolved: 'https://registry.npmjs.org/sass/-/sass-0.5.0.tgz' } ]
+213 info install sass@0.5.0 into /usr/local/lib
+214 info installOne sass@0.5.0
+215 verbose from cache /Users/remko/.npm/sass/0.5.0/package/package.json
+216 info /usr/local/lib/node_modules/sass unbuild
+217 verbose read json /usr/local/lib/node_modules/sass/package.json
+218 verbose tar unpack /Users/remko/.npm/sass/0.5.0/package.tgz
+219 silly lockFile ab169bac-usr-local-lib-node-modules-sass /usr/local/lib/node_modules/sass
+220 verbose lock /usr/local/lib/node_modules/sass /Users/remko/.npm/ab169bac-usr-local-lib-node-modules-sass.lock
+221 silly lockFile 5dfe0ce5-remko-npm-sass-0-5-0-package-tgz /Users/remko/.npm/sass/0.5.0/package.tgz
+222 verbose lock /Users/remko/.npm/sass/0.5.0/package.tgz /Users/remko/.npm/5dfe0ce5-remko-npm-sass-0-5-0-package-tgz.lock
+223 silly gunzTarPerm modes [ '755', '644' ]
+224 error Error: EACCES, mkdir '/usr/local/lib/node_modules/sass'
+224 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/sass']
+224 error   errno: 3,
+224 error   code: 'EACCES',
+224 error   path: '/usr/local/lib/node_modules/sass',
+224 error   fstream_type: 'Directory',
+224 error   fstream_path: '/usr/local/lib/node_modules/sass',
+224 error   fstream_class: 'DirWriter',
+224 error   fstream_stack:
+224 error    [ 'DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)',
+224 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+224 error      'Object.oncomplete (fs.js:297:15)' ] }
+225 error Please try running this command again as root/Administrator.
+226 error System Darwin 12.2.0
+227 error command "node" "/usr/local/bin/npm" "install" "-g" "sass"
+228 error cwd /Users/remko/new/versvoko
+229 error node -v v0.8.19
+230 error npm -v 1.2.10
+231 error path /usr/local/lib/node_modules/sass
+232 error fstream_path /usr/local/lib/node_modules/sass
+233 error fstream_type Directory
+234 error fstream_class DirWriter
+235 error code EACCES
+236 error errno 3
+237 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/sass'
+238 error fstream_stack DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)
+238 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+238 error fstream_stack Object.oncomplete (fs.js:297:15)
+239 verbose exit [ 3, true ]
